@@ -1,6 +1,7 @@
 module.exports = {
   title: 'FeathersJS',
   description: 'A REST and real-time API layer for modern applications',
+  base: '/tmpdoc/',
   thirdPartyComponents: {
     fontAwesomeIcons:{
         regular:['lightbulb'],  // Regular font awesome icon keys here
@@ -13,9 +14,9 @@ module.exports = {
       indexName: 'feathersjs'
     },
     logo: '/img/feathers-offline-first.png',
-    repo: 'tmpdoc/docs',
-    docsRepo: 'tmpdoc/docs',
-    docsBranch: 'crow',
+    repo: 'mhillerstrom/tmpdoc',
+    docsRepo: 'mhillerstrom/tmpdoc',
+    docsBranch: 'main',
     editLinks: true,
     sidebarDepth: 2,
     sidebar: {

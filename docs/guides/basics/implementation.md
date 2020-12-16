@@ -1,7 +1,7 @@
 # How is own-data/own-net implemented?
 The following is a high-level illustration of the `realtimeWrapper,` `owndataWrapper,` and `ownnetWrapper`:
 
-<div style="text-align: center"><img width="400" src="/img/wrapper-overview.png" alt="FeathersJS Offline-first wrapper overview"></div>
+<div style="text-align: center"><img width="400" :src="$withBase('/img/wrapper-overview.png')" alt="FeathersJS Offline-first wrapper overview"></div>
 
 As can be gleaned from this, the `realtimeWrapper` wraps functionality around all of the CRUD methods of the service. This is mainly to set `onServerAt` to determine the exact time this version of the item in question hit the server and when needed, `deletedAt,` to indicate the exact time when the item in question was deleted from the server. Both of these are crucial for the synchronization with the clients.
 
