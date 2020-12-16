@@ -13,8 +13,8 @@ module.exports = {
       indexName: 'feathersjs'
     },
     logo: '/img/feathers-offline-first.png',
-    repo: 'feathersjs-offline/docs',
-    docsRepo: 'feathersjs-offline/docs',
+    repo: 'tmpdoc/docs',
+    docsRepo: 'tmpdoc/docs',
     docsBranch: 'crow',
     editLinks: true,
     sidebarDepth: 2,
