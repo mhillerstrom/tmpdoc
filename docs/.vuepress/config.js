@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'FeathersJS',
+  title: 'FeathersJS Offline-first',
   description: 'A REST and real-time API layer for modern applications',
   base: '/tmpdoc/',
   thirdPartyComponents: {
@@ -16,6 +16,7 @@ module.exports = {
     logo: '/img/feathers-offline-first.png',
     repo: 'mhillerstrom/tmpdoc',
     docsRepo: 'mhillerstrom/tmpdoc',
+    docsDir: 'docs',
     docsBranch: 'main',
     editLinks: true,
     sidebarDepth: 2,
